@@ -1,4 +1,4 @@
-# me_and_my_tent_client
+# CampOut-flutter
 
 A new Flutter project.
 
