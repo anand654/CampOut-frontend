@@ -10,7 +10,7 @@ enum AuthState { loading, signedIn, signedOut, error }
 class AuthProvider extends ChangeNotifier {
   final GoogleSignIn _googleSignIn = GoogleSignIn();
   final IAuthApi _authApi =
-      AuthApi('https://me-and-my-tent.herokuapp.com', Composition.httpClient);
+      AuthApi('base-url', Composition.httpClient);
   IAuthService _authService;
 
   AuthProvider() {
