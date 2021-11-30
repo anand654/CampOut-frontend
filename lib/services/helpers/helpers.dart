@@ -13,7 +13,7 @@ import 'package:me_and_my_tent_client/services/webview/webpreview.dart';
 class Helpers implements IHelpers {
   @override
   Uri urlParser(String path) {
-    return Uri.parse('https://me-and-my-tent.herokuapp.com/api/v1/$path');
+    return Uri.parse('base-url');
   }
 
   @override
